@@ -729,6 +729,9 @@ svg:not(:root).svg-inline--fa {
 .pb3 {
     padding-bottom: 3rem;
 }
+.pb2 {
+    padding-bottom: 2rem;
+}
 .mv6 {
     margin-top: 3rem;
     margin-bottom: 3rem;
