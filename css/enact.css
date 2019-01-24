@@ -772,6 +772,7 @@ svg:not(:root).svg-inline--fa {
 }
 h2.lead{
     font-size: 2rem;
+    margin-top: 0
 }
 
 
