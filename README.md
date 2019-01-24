@@ -8,6 +8,9 @@ Changes made:
 - Select-audit page: updated options to match latest content
 - audit-report page: 
   - changed mod 12 section name
+- survey page:
+  - added tooltip labels to likert scale
+  - Updated questions (outcome measures)
 
 To do:
 - 
