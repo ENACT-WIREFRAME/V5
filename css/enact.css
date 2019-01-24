@@ -16,6 +16,7 @@
 .page .sidebar-sticky{
     background: #f8f9fa;
     color: white;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
 }
 .navbar-brand, .sidebar-sticky{
     box-shadow: none;
@@ -57,6 +58,7 @@ h1 .text-muted{margin-left: 10px}
 
 .page [role="main"] {
     padding-top: 80px;
+    max-width: 94.333333%;
 }
 .select-audit .btn-group{
     margin: 0 10px 20px 0;
@@ -283,106 +285,6 @@ label.disagree{
     margin-right: 10px;
     padding: 5px 10px;
 }
-
-/*.main {
-    width: 100%;
-    min-height: 100vh;
-    transition: all .4s ease-in-out;
-}
-.page .navbar{
-    background: #2e3e4e;
-    color: white;
-}
-.report .navbar{
-    background: white;
-    color: black;
-}
-.sidebar-sticky {
-    position: -webkit-sticky;
-    position: sticky;
-}
-.sidebar-sticky {
-    position: relative;
-    top: 0;
-    height: calc(100vh - 48px);
-    padding-top: .5rem;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-[role="main"], .page {
-    padding-top: 67px;
-}
-.navbar-brand{
-    padding: 1.15rem 0rem;
-    min-width: 220px;
-    max-width: 220px;
-    background: #2e3e4e;
-    color: white;
-}
-.sidebar-sticky{
-    padding-top: 4.5rem
-}
-.page{
-    width: 100%;
-    margin: auto;
-}
-.page, .page .navbar .container{
-    max-width: 900px;
-}
-
-.page .nav-link {
-    color: #fff;
-    background-color: #007bff;
-
-}
-.report .navbar-brand{
-    padding: 1.15rem 1.5rem;
-}
-.nav-pills .nav-link {
-    border-radius: 2rem;
-    margin: 5px 0;
-}
-.bg-dark{
-    background: #2e3e4e;
-    color: white;
-}
-.progress {
-    display: -ms-flexbox;
-    display: flex;
-    height: 1rem;
-    overflow: hidden;
-    font-size: .75rem;
-    background-color: #e9ecef;
-    border-radius: .25rem;
-}
-.progress-bar {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: center;
-    justify-content: center;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #007bff;
-    transition: width .6s ease;
-}
-.select-audit .badge{
-    margin-left: 2px;
-}
-.sidebar, .sidebar-content {
-    background: #354052;
-}
-.sidebar {
-    min-width: 240px;
-    max-width: 240px;
-    transition: all .4s ease-in-out;
-}
-.content{
-    background-color: #f5f9fc
-}
-*/
 
 /* The switch - the box around the slider */
 .switch {
