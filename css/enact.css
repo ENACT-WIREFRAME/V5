@@ -751,6 +751,9 @@ svg:not(:root).svg-inline--fa {
 .bg-gray0 {
     background-color: #e9ecef;
 }
+.bg-white0{
+    background-color: #ffffff;
+}
 .ph4 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
