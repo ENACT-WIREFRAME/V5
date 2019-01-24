@@ -32,7 +32,8 @@
 }
 .page .navbar-brand{
     background: #f8f9fa; 
-    color: #343a40
+    color: #343a40;
+    margin-right: 0;
 }
 .sidebar .nav-link{
     color: #999
