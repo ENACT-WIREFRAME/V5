@@ -12,6 +12,7 @@
 .navbar-brand, .sidebar-sticky{
     background: #343a40;
     color: white;
+    width:60px;
 }
 .page .sidebar-sticky{
     background: #f8f9fa;
