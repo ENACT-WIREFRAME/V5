@@ -710,3 +710,68 @@ svg:not(:root) {
 svg:not(:root).svg-inline--fa {
     overflow: visible;
 }
+.bt {
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+.b--gray1 {
+    border-color: #f1f3f5;
+}
+.bw2 {
+    border-width: .25rem;
+}
+.relative {
+    position: relative;
+}
+.pb3 {
+    padding-bottom: 1rem;
+}
+.mv6 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.top--1 {
+    top: -1rem;
+}
+.fw6 {
+    font-weight: 600;
+}
+.lh1 {
+    line-height: 1;
+}
+.absolute {
+    position: absolute;
+}
+.bg-gray0 {
+    background-color: #f8f9fa;
+}
+.ph4 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.mv0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tc {
+    text-align: center;
+}
+.f6 {
+    font-size: 1.95312rem;
+}
+.center-h {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.nowrap {
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
