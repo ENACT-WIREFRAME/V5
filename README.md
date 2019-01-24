@@ -1,6 +1,6 @@
 # V5 of enact-wireframe.io
 
-kick 
+kick it
 
 Changes made:
 - Changed welcome screen wording and layout
