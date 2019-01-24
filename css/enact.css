@@ -770,7 +770,9 @@ svg:not(:root).svg-inline--fa {
 .nowrap {
     white-space: nowrap;
 }
-
+h2.lead{
+    font-size: 2rem;
+}
 
 
 
