@@ -579,7 +579,7 @@ h2[id]::before {
     margin-bottom: 2rem;
     background-color: #e9ecef;
     border-radius: .3rem;
-    color: #1F92C2
+    /*color: #1F92C2*/
 }
 .steps img {
     background-color: #fff;
