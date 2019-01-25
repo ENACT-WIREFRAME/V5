@@ -1,18 +1,23 @@
 ---
 layout: page
 ---
-<nav class="navbar bg-light fixed-top flex-md-nowrap p-0 shadow">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0 transition" href="{{ site.baseurl }}/index">{% include logo.html %}</a>
-      <span id="message" class="col-lg-6">We are interested in your experience of the way we presented this audit report.</span>
-      <div class="wizard-steps col-lg-4">
-		<ul>
-			<li class="">1. Select audit</li>
-			<li class="">2. Review Report</li>
-			<li class="active">3. Complete survey</li> 
-		</ul>
-	</div>		
-</nav>
+<header>
+	  <!-- Fixed navbar -->
+	  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light shadow">
+		<a class="navbar-brand" href="{{ site.baseurl }}/index">{% include logo.html %}ENACT</a>
+
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<p class="navbar-nav mr-auto">
+				Enhancing NAtional Clinical audiT and feedback
+			</p>
+			<div class="progress mt-2 mt-md-0 col-md-3">
+				<div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+			</div>
+		</div>
+	  </nav>
+</header>
 <div class="container-fluid">
+	<span id="message" class="col-lg-6">We are interested in your experience of the way we presented this audit report.</span>
       <div class="row">
             <nav class="col-md-2 d-none d-md-block bg-light sidebar">
                   <div class="sidebar-sticky">
