@@ -33,6 +33,7 @@
     background: #f8f9fa; 
     color: #343a40;
     margin-right: 10px;
+    font-weight: bold;
 }
 .page .navbar span{
     font-size: 1.5em
