@@ -696,7 +696,10 @@ h2.lead{
   height: 250px;
   overflow-y: auto;
 }
-
+.progress{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
 
 
 
