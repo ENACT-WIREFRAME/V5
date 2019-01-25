@@ -687,8 +687,16 @@ h2.lead{
     font-size: 2rem;
     margin-top: 0
 }
-
-
+.modal{
+    display: block !important;
+}
+.modal-dialog{
+      overflow-y: initial !important
+}
+.modal-body{
+  height: 250px;
+  overflow-y: auto;
+}
 
 
 
