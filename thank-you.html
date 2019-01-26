@@ -1,21 +1,7 @@
 ---
 layout: page
 ---
-<header>
-	  <!-- Fixed navbar -->
-	  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light shadow">
-		<a class="navbar-brand" href="{{ site.baseurl }}/index">{% include logo.html %}ENACT</a>
-
-		<div class="collapse navbar-collapse" id="navbarCollapse">
-			<p class="navbar-nav mr-auto">
-				Enhancing NAtional Clinical audiT and feedback
-			</p>
-			<div class="progress mt-2 mt-md-0 col-md-3">
-				<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-			</div>
-		</div>
-	  </nav>
-</header>
+{% include page-header.html pb-width="100%;" %}
 <div class="container-fluid">
       <span id="message" class="alert alert-success-fade">You have now completed the survey.</span>
       <div class="row">
