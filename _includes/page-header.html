@@ -1,17 +1,15 @@
-<nav class="navbar bg-light fixed-top flex-md-nowrap p-0 shadow">
-	<a class="navbar-brand col-sm-3 col-md-2 mr-0 transition" href="{{ site.baseurl }}/index">{% include logo.html %}</a>
-	<span id="audit-name" class="col-lg-10"></span>
-	<ul class="navbar-nav px-3">
-		<li class="nav-item text-nowrap">
-		  	{% include progress-bar.html %}
-		</li>
-	</ul>
-</nav>
-<!--<div class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-	<div class="container">
-		<a class="navbar-brand col-sm-3 col-md-2 mr-0 transition" href="{{ site.baseurl }}/index.html">{% include logo.html %}</a>
-		<span id="audit-name" class="w-100">National Diabetes Audit</span>
-		{% include progress-bar.html progress_width="30%" %}
-	</div>
-</div>-->
-	 
+<header>
+	  <!-- Fixed navbar -->
+	  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light shadow">
+		<a class="navbar-brand" href="{{ site.baseurl }}/index">{% include logo.html %}ENACT</a>
+
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<p class="navbar-nav mr-auto">
+				Enhancing NAtional Clinical audiT and feedback
+			</p>
+			<div class="progress mt-2 mt-md-0 col-md-3">
+				<div class="progress-bar" role="progressbar" style="{{ include.pb-width }}" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">{{ include.pb-width }}</div>
+			</div>
+		</div>
+	  </nav>
+</header>
