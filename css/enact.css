@@ -61,10 +61,12 @@ cls-12{
 
 h1 .text-muted{margin-left: 10px}
 
+.page{
+    margin-left: 100px;
+}
 .page [role="main"] {
     padding-top: 80px;
     max-width: 95.333333%;
-    margin-left: 100px;
 }
 .select-audit .btn-group{
     margin: 0 10px 20px 0;
