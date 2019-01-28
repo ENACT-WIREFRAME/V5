@@ -112,7 +112,8 @@ h1 .text-muted{margin-left: 10px}
 }
 /* ---- TAB STYLES ----- */
 .nav-tabs{
-    margin: 1.5rem 0
+    margin: 1.5rem 0;
+    border-right: 6px solid #dee2e6;
 }
 .tab-content ul{
     padding: 10px 0
@@ -712,4 +713,6 @@ h2.lead{
     border-top-left-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem;
 }
-
+.nav-tabs .nav-item{
+    margin-right: -6px
+}
