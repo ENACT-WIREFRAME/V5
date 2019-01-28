@@ -753,6 +753,9 @@ h2.lead{
     text-decoration: none;
     background-color: #f8f9fa;
 }
+#block-d .nav-tabs .nav-link:hover, #block-d .nav-tabs .nav-link:focus {
+    border-color: 0 none 
+}
 #evidence li{
     display: block
 }
