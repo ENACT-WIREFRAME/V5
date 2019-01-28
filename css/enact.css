@@ -379,7 +379,8 @@ border-radius: 50%;
   transition: background 5s ease-out;
 }
 #message.alert-success-fade.load {
-    background: rgba(212,237,218,0);
+    background: rgba(226, 227, 229, 1);
+    /*rgba(212,237,218,0)*/
 }
 /* WIZARD STEPS */
 .wizard-steps {
