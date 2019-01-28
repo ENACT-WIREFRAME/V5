@@ -21,22 +21,7 @@ body {
   /* padding: 48px 0 0; Height of navbar */
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
   width: 60px;
-}
-
-.sidebar-sticky {
-  position: relative;
-  top: 0;
-  height: calc(100vh - 48px);
-  padding-top: 4rem;
-  overflow-x: hidden;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-}
-
-@supports ((position: -webkit-sticky) or (position: sticky)) {
-  .sidebar-sticky {
-    position: -webkit-sticky;
-    position: sticky;
-  }
+  padding-top: 4rem
 }
 
 .sidebar .nav-link {
