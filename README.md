@@ -10,6 +10,7 @@ Changes made:
   - changed mod 12 section name
   - tooltips on icon labels
   - updated layout
+  - changed style on tabs mod12
 - survey page:
   - added tooltip labels to likert scale
   - Updated questions (outcome measures)
