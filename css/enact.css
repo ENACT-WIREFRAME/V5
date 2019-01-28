@@ -760,3 +760,6 @@ h2.lead{
 #evidence li{
     display: block
 }
+.button-bar{
+    margin: 1.5em 0
+}
