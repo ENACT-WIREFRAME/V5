@@ -1,6 +1,6 @@
 # V5 of enact-wireframe.io
 
-kick 
+kick it
 
 Changes made:
 - Changed welcome screen wording and layout
@@ -9,6 +9,7 @@ Changes made:
 - report page: 
   - changed mod 12 section name
   - tooltips on icon labels
+  - updated layout
 - survey page:
   - added tooltip labels to likert scale
   - Updated questions (outcome measures)
