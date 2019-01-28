@@ -233,8 +233,17 @@ h2 {
     border-radius: 50%;
 }
 /* ---- REPORT STYLES ---- */
+.bg-danger {
+    background-color: #e17c7c!important;
+}
+.danger {
+    color: #e17c7c!important;
+}
 .bg-warning {
     background-color: #ffc36d!important;
+}
+.warning {
+    color: #ffc36d!important;
 }
 .circle {
     border-radius: 100%;
