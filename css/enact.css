@@ -719,8 +719,25 @@ h2.lead{
     border-bottom-left-radius: 0.25rem;
 }
 #block-d .nav-tabs .nav-item{
-    margin-right: -6px
+   position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
 }
-#block-d .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-    background-color:  #e9ecef;
+#block-d .nav-item:first-child {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+#block-d .nav-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+#block-d .nav-item:focus, #block-d .nav-item:hover {
+    color: #495057;
+    text-decoration: none;
+    background-color: #f8f9fa;
 }
