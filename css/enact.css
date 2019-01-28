@@ -117,9 +117,6 @@ h1 .text-muted{margin-left: 10px}
 #block-d .nav-tabs {
     border-bottom: 0 none;
 }
-#block-d .tab-content{
-    border: 6px solid #dee2e6;
-}
 .tab-content ul{
     padding: 10px 0
 }
