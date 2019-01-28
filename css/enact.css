@@ -479,8 +479,8 @@ border-radius: 50%;
 }
 #block-d .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
     color: inherit;
-    background-color: #fff; */
-    /* border-color: #dee2e6 #dee2e6 #fff; */
+    background-color: none;
+    border-color: none; 
 }
 }
 #block-d .nav-tabs .nav-link {
@@ -728,6 +728,10 @@ h2.lead{
 #block-d .nav-item:first-child {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
+}
+#block-d .nav-item:last-child {
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
 }
 #block-d .nav-item.active {
     z-index: 2;
