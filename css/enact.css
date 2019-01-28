@@ -111,13 +111,13 @@ h1 .text-muted{margin-left: 10px}
     max-width: 700px;
 }
 /* ---- TAB STYLES ----- */
-.nav-tabs.flex-column{
+#block-d .nav-tabs {
     margin: 1.5rem 0;
 }
-.nav-tabs.flex-column {
+#block-d .nav-tabs {
     border-bottom: 0 none;
 }
-.flex-column .tab-content{
+#block-d .tab-content{
     border: 6px solid #dee2e6;
 }
 .tab-content ul{
@@ -713,14 +713,14 @@ h2.lead{
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
     border-color: #dee2e6 #fff #dee2e6 #dee2e6;
 }
-.nav-tabs.flex-column .nav-link {
+#block-d .nav-tabs .nav-link {
     border: 6px solid transparent;
     border-top-left-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem;
 }
-.nav-tabs .nav-item{
+#block-d .nav-tabs .nav-item{
     margin-right: -6px
 }
-.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+#block-d .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
     background-color:  #e9ecef;
 }
