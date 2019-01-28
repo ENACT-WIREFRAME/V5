@@ -112,9 +112,6 @@ h1 .text-muted{margin-left: 10px}
 }
 /* ---- TAB STYLES ----- */
 #block-d .nav-tabs {
-    margin: 1.5rem 0;
-}
-#block-d .nav-tabs {
     border-bottom: 0 none;
 }
 .tab-content ul{
