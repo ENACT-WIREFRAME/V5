@@ -474,7 +474,7 @@ border-radius: 50%;
     width: 0;
     height: 0;
     border-top: 13px solid transparent;
-    border-left: 13px solid #007bff;
+    border-left: 13px solid #d6d8db;
     border-bottom: 13px solid transparent;
 }
 #block-d .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
