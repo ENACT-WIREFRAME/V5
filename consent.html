@@ -2,7 +2,7 @@
 layout: page
 ---
 {% include page-header.html pb-width="20%" %}
-<main role="main" class="ml-sm-auto px-4">
+<main role="main">
 	<div class="container-fluid">
 		<div class="row">
 			<nav class="bg-light sidebar">
@@ -101,16 +101,15 @@ layout: page
 					</div><!-- end modal-content-->
 				</div><!-- end modal-->
 			</div><!-- end modal-dialogue-->
-			<script>
-				document.getElementsByClassName("progress-bar")[0].setAttribute("style", "width:20%");
-				$('#pis').on('shown.bs.modal', function () {
-				});
-			</script> 
 		</div><!-- END ROW-->
 	</div><!-- END CONTAINER_FLUID-->
 </main>
 <footer class="footer">
 	{{ include.footer-approval.html }}
 </footer>
+<script>
+	$('#pis').on('shown.bs.modal', function () {
+	});
+</script> 
 	
 
