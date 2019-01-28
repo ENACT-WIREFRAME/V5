@@ -705,7 +705,11 @@ h2.lead{
     max-width: 25%;
 }
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
-    border-color: #dee2e6 #fff #dee2e6;
+    border-color: #dee2e6 #fff #dee2e6 #dee2e6;
 }
-
+.nav-tabs .nav-link {
+    border: 6px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
 
