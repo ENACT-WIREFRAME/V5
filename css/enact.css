@@ -39,7 +39,8 @@
     font-size: 1.5em
 }
 .sidebar .nav-link{
-    color: #999
+    color: #999;
+    padding: .5rem 1.4rem;
 }
 .sidebar .nav-link:hover{
     color: #333
